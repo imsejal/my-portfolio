@@ -8,7 +8,7 @@ import projImg8 from "../assets/img/project-img8.png";
 
 const projectData = [
   {
-    id: "1",
+    id: 1,
     title: "Real-Time Code Editor",
     description:
       "Collaborative real-time code editor with WebSockets & Node.js.",
@@ -21,7 +21,7 @@ const projectData = [
     githubUrl: "https://github.com/imsejal/realtime-code-editor",
   },
   {
-    id: "2",
+    id: 2,
     title: "Sign Language Interpreter",
     description: "Deep learning model to interpret sign language gestures.",
     longDescription:
@@ -33,7 +33,7 @@ const projectData = [
     githubUrl: "https://github.com/imsejal/sign-language-interpreter",
   },
   {
-    id: "3",
+    id: 3,
     title: "Algorithm Visualization Tool",
     description:
       "Interactive tool to visualize sorting and pathfinding algorithms.",
@@ -46,7 +46,7 @@ const projectData = [
     githubUrl: "https://github.com/imsejal/algorithm-visualizer",
   },
   {
-    id: "4",
+    id: 4,
     title: "ImaginAI (Generative AI App)",
     description: "A generative AI app for creating images from prompts.",
     longDescription:
@@ -58,7 +58,7 @@ const projectData = [
     githubUrl: "https://github.com/imsejal/imaginAI",
   },
   {
-    id: "5",
+    id: 5,
     title: "Billing System",
     description: "A C++ program for managing products and generating bills.",
     longDescription:
@@ -70,7 +70,7 @@ const projectData = [
     githubUrl: "https://github.com/imsejal/billing-system",
   },
   {
-    id: "6",
+    id: 6,
     title: "2248 Puzzle Game",
     description: "A number-merging puzzle game built with ReactJS.",
     longDescription:

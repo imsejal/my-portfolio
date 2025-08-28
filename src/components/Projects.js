@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import projImg1 from "../assets/img/project-img1.png";
 // import projImg2 from "../assets/img/project-img2.png";
 // import projImg3 from "../assets/img/project-img3.png";
@@ -95,13 +95,7 @@ export const Projects = () => {
                         <Row>
                           {projectData.map((project, index) => (
                             <Col key={index} size={12} sm={6} md={4}>
-                              <Link
-                                key={index}
-                                to={`/projects/${project.id}`}
-                                className="proj-card-link"
-                              >
-                                <ProjectCard {...project} />
-                              </Link>
+                              <ProjectCard {...project} />
                             </Col>
                           ))}
                         </Row>

@@ -38,7 +38,7 @@ export const Footer = () => {
                 <img src={navIcon2} alt="" />
               </a>
               <a
-                href="mailto:gsejal28@gmail.com"
+                href="mailto:sejal.cse@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

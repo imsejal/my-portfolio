@@ -544,33 +544,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Main container for the Project Details page */
 
 /* Project Details Page */
+/* /* Project Details Page */
 .project-details-page {
   min-height: 80vh;
-  padding: 200px 20px 200px 120px; /* top, right, bottom, left */
-  background: #0a0a0a; /* same as rest of your projects section */
-  color: #fff; /* text color to match the theme */
+  padding: 200px 20px 200px 120px;
+  background: #121212;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  font-family: "Centra", sans-serif;
 }
 
 .project-details-content {
   max-width: 900px;
   width: 100%;
+  padding: 0 15px;
   text-align: left;
 }
 
 .project-details-content h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem; /* Larger font size for prominence */
   margin-bottom: 30px;
   color: #fff;
+  font-weight: 700;
+  text-align: center;
 }
 
 .project-details-content p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 40px;
-  color: #dcdcdc;
+  color: #b8b8b8; /* Consistent with other p tags */
 }
 
 .project-images {
@@ -581,10 +586,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-images img {
-  width: calc(50% - 7.5px);
+  width: 100%;
+  max-width: 450px;
   border-radius: 15px;
   object-fit: cover;
   transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project-images img:hover {
@@ -592,49 +599,59 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-details-content h3 {
+  font-size: 2rem;
   margin-bottom: 15px;
   color: #fff;
+  font-weight: 600;
 }
 
 .project-details-content ul {
-  list-style: disc inside;
+  list-style: none; /* Remove default bullets */
   margin-bottom: 40px;
   padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .project-details-content ul li {
-  margin-bottom: 5px;
+  background-color: #2a2a2a; /* A darker background for technology tags */
+  padding: 8px 15px;
+  border-radius: 5px;
   font-size: 1rem;
-  color: #dcdcdc;
+  color: #fff;
 }
 
 .links-container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .project-link {
-  padding: 10px 20px;
-  background: linear-gradient(90deg, #aa367c, #4a2fbd);
+  padding: 14px 28px;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   color: #fff;
   border-radius: 30px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   transition: all 0.3s ease;
+  letter-spacing: 0.8px;
 }
 
 .project-link:hover {
-  background: linear-gradient(90deg, #4a2fbd, #aa367c);
+  background: linear-gradient(90.21deg, #4a2fbd -5.91%, #aa367c 111.58%);
   transform: translateY(-3px);
 }
 
 .project-not-found {
   text-align: center;
   font-size: 2rem;
-  color: #ff4d4f;
-  margin: 50px 0;
+  color: #fff;
+  margin-top: 50px;
 }
+*/
 
 /************ Projects Css ************/
 .contact {
@@ -726,7 +743,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #121212;
   padding: 85px 125px;
   margin-bottom: 80px;
-  margin-top: -122px;
+  margin-top: 122px;
 }
 .newsletter-bx h3 {
   font-weight: 700;
